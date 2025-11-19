@@ -164,13 +164,14 @@ Pull requests welcome! Please ensure:
 
 ---
 
-## 📁 **Final Project Structure to Upload**
-```
+## 📁 Project Structure
+````
 realtime_sentiment_analyzer/
-├── .gitignore                 ✅ (blocks .env from upload)
-├── .env.example              ✅ (template for others)
-├── README.md                 ✅ (documentation)
-├── docker-compose.yml        ✅
+├── .gitignore                 # Git ignore file
+├── .env.example              # Environment template
+├── README.md                 # Documentation
+├── docker-compose.yml        # Docker orchestration
+├── dashboard-screenshot.png  # Dashboard preview
 ├── producer/
 │   ├── Dockerfile
 │   ├── producer.py
@@ -184,3 +185,8 @@ realtime_sentiment_analyzer/
     ├── Dockerfile
     ├── app.py
     └── requirements.txt
+````
+
+**NOT UPLOADED** (protected by .gitignore):
+- `.env` - Contains My API key
+- `ollama_models/` - Large model files (~4.7GB)

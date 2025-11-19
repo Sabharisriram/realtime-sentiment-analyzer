@@ -160,12 +160,10 @@ Pull requests welcome! Please ensure:
 - NewsAPI for financial news data
 - Ollama for local LLM inference
 - Confluent for Kafka Docker images
+
+
+## 📁 **Final Project Structure to Upload**
 ```
-
----
-
-## 📁 Project Structure
-````
 realtime_sentiment_analyzer/
 ├── .gitignore                 # Git ignore file
 ├── .env.example              # Environment template
@@ -185,8 +183,8 @@ realtime_sentiment_analyzer/
     ├── Dockerfile
     ├── app.py
     └── requirements.txt
-````
+```
 
 **NOT UPLOADED** (protected by .gitignore):
-- `.env` - Contains My API key
+- `.env` - Contains your API key
 - `ollama_models/` - Large model files (~4.7GB)
